@@ -4,4 +4,4 @@ version = "0.1.0"
 authors = ["Ta Thanh Dinh <tathanhdinh@gmail.com>"]
 
 [dependencies]
-native-windows-gui = "*"
+native-windows-gui = { path = "../native-windows-gui" }

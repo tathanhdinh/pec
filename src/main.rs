@@ -14,13 +14,11 @@ pub enum AppId {
 nwg_template!(
     head: setup_ui<AppId>,
     controls: [
-        (AppId::MainWindow, nwg_window!(title = "PeC - PE Characteristics"; size = (280, 105)))
+        (AppId::MainWindow, nwg_window!(title = "PeC - PE Characteristics"; size = (400, 247)))
     ];
     events: [
-
     ];
     resources: [
-
     ];
     values: []
 );
